@@ -1,0 +1,921 @@
+div{
+    display: inline-block;
+}
+.mainDiv1{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv2{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv3{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv4{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv5{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div5{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv6{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.div6{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv7{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+}
+.div7{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv8{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+.div8{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv9{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.div9{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv10{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+.div10{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv11{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.div11{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv12{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
+}
+.div12{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv13{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.div13{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv14{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div14{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv15{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.div15{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv16{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+}
+.div16{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv17{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+.div17{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv18{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.div18{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv19{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+.div19{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv20{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.div20{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv21{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
+}
+.div21{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv22{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.div22{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv23{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div23{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv24{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.div24{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv25{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+}
+.div25{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv26{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+.div26{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv27{
+    display: flex;
+    background-color: violet;
+    width: 210px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 5rem;
+    text-align: center;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.div27{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv28{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: start;
+}
+.div28{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv29{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: center;
+}
+.div29{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv30{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: end;
+}
+.div30{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv31{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+}
+.div31{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv32{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.div32{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv33{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: end;
+}
+.div33{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv34{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: start;
+}
+.div34{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv35{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: center;
+}
+.div35{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv36{
+    display: flex;
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: end;
+}
+.div36{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv37{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: start;
+}
+.div37{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv38{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: center;
+}
+.div38{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv39{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: end;
+}
+.div39{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv40{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+}
+.div40{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv41{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.div41{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv42{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: end;
+}
+.div42{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv43{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: start;
+}
+.div43{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv44{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: center;
+}
+.div44{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv45{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: end;
+}
+.div45{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv46{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: start;
+}
+.div46{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv47{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: center;
+}
+.div47{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv48{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: end;
+}
+.div48{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv49{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+}
+.div49{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv50{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.div50{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv51{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: end;
+}
+.div51{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv52{
+    display: flex;
+    background-color: violet;
+    width: 30px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: start;
+}
+.div52{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv53{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: center;
+}
+.div53{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
+.mainDiv54{
+    display: flex;
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: end;
+}
+.div54{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+}
